@@ -1,0 +1,86 @@
+*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url('IMAGES/download.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+
+		}
+		#top {
+			text-align: center;
+		}
+		#top h1{
+			font-size: 38px;
+			font-weight: bolder;
+			text-decoration: underline;
+			margin-top:26px;			
+		}
+		#time{
+			font-size: 40px;
+			font-weight: bolder;
+		}
+		#greet{
+			font-weight: bolder;
+			text-transform: capitalize;
+		}
+		#greet:: nth-word(2){
+			border:2px solid white;
+			background-color: yellow;
+		}
+		ol{
+			width: 100%;
+			background-color: yellow;
+			padding: 46px;
+			margin-top:19px;
+			list-style-position: inside;
+			box-shadow: 2px 2px 2px black,2px 2px 2px black;
+		}
+		ol li{
+			font-size: 21px;
+			padding: 10px;
+			font-weight: bold;
+		}
+		#last{
+			text-align: center;
+			text-transform: capitalize;
+			text-decoration: underline;
+		}
+		ol li:hover{
+			text-decoration: line-through;
+			border: 2px solid white;
+			text-align: center;
+			cursor:pointer;
+			font-size: 30px;
+			background-color: black;
+			color: white;
+			display: block;
+		}
+		#listBox{
+			display: none;
+			font-size: 30px;
+			margin: auto;
+			padding: 16px;
+			text-align: center;
+			font-weight: bolder;
+			text-decoration: underline;
+			border: 3px solid black;
+			background-color: grey;
+			color: white;
+			box-shadow: 6px 6px 6px black; 
+			max-width: 400px;
+		}
+		#list{
+			display: none;
+			font-size: 20px;
+			margin: 10px;
+			padding: 14px;
+			font-size: 30px;
+			color: black;
+			font-family: courier;
+			text-align: center;
+			list-style-position: inside;
+			cursor: pointer;
+		}
