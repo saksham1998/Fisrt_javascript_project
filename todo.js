@@ -1,4 +1,4 @@
-var name = prompt("What's Your Name","Your Name");
+ var name = prompt("What's Your Name","Your Name");
 //var name = "saksham";
 var time = new Date();	
 var greet,i;
