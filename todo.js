@@ -1,16 +1,9 @@
- var name = prompt("What's Your Name","Your Name");
+let name = prompt("What's Your Name","Your Name");
 //var name = "saksham";
-var time = new Date();	
-var greet,i;
-var list = [];
+let time = new Date();	
+let greet,i;
+let list = [];
 
-
-if(name==null){
-	name="User";
-}
-else{
-	name=name;
-}
 
 if((time.getHours()) > 12){
 	greet = "Good Evening, " + name+ "!";
@@ -22,11 +15,7 @@ else{
 	document.getElementById("time").innerHTML= time.getHours()+":"+time.getMinutes()+" am";
 	document.getElementById("greet").innerHTML = greet;
 }
-/*else{
-	greet = `Happy Noon, ${name}!`;
-	document.getElementById("time").innerHTML= time.getHours()+":"+time.getMinutes();
-	document.getElementById("greet").innerHTML = greet;
-}*/
+
 document.getElementById("last").innerHTML=`Thank You for Visiting Us,${name}......`;
 
 function add(){
